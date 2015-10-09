@@ -6,6 +6,9 @@ body {
 hr {
   border-width: 5px;
 }
+.caption-bold {
+  font-weight: bold;
+}
 .text-muted {
   color: #bcbbbb;
 }

@@ -15,7 +15,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-6">
-          <img class="title-logo" src="images/portraitAndreas.jpg" height="120px" alt="Portrait of Andreas">
+          <img class="title-logo" src="images/portraitAndreas.jpg" height="120" alt="Portrait of Andreas">
         </div>
         <div class="col-md-6 text-right text-uppercase">
           <h1 class="text-thin title-super">Andreas Isenegger</h1>
@@ -40,44 +40,94 @@
       <div class="row text-center">
         <div class="col-md-4">
           <!-- TODO: add logo of Bitcontrol; 07-Oct-2015/ais -->
-          <img src="images/555x300.png" alt="Bitcontrol logo" class="img-responsive" data-toggle="modal" data-target="#project1">
-          <h3 class="text-uppercase"><strong>Bitcontrol</strong></h3>
+          <img src="images/logoBitcontrol.png" alt="Bitcontrol logo" class="img-responsive" data-toggle="modal" data-target="#project1">
+          <h3 class="text-uppercase caption-bold">Bitcontrol</h3>
           <p>
             <a href="http://bitcontrol.ch" title="Bitcontrol GmbH, Switzerland" target="_blank">My company's home page</a>
           </p>
         </div>
         <div class="col-md-4">
-          <!-- TODO: add logo of GitHub; 07-Oct-2015/ais -->
-          <img src="images/555x300.png" alt="GitHub logo" class="img-responsive">
-          <h3 class="text-uppercase"><strong>Bitcontrol@GitHub</strong></h3>
+          <img src="images/logoBlog.png" alt="Blog logo" class="img-responsive" data-toggle="modal" data-target="#project2">
+          <h3 class="text-uppercase caption-bold">Blog@Bitcontrol</h3>
+          <p>
+            <a href="http://bitcontrol.ch/blog" title="Bitcontrol's technical blog" target="_blank">My blog at Bitcontrol</a>
+          </p>
+        </div>
+        <div class="col-md-4">
+          <img src="images/logoGitHub.png" alt="GitHub logo" class="img-responsive"  data-toggle="modal" data-target="#project3">
+          <h3 class="text-uppercase caption-bold">Bitcontrol@GitHub</h3>
           <p>
             <a href="https://github.com/bitcontrol" title="Bitcontrol at GitHub" target="_blank">Bitcontrol's public repository</a>
           </p>
         </div>
-        <div class="col-md-4">
-          <!-- TODO: add link to blog on bitcontrol.ch; image? 07-Oct-2015/ais -->
-          <img src="images/555x300.png" alt="" class="img-responsive">
-          <h3 class="text-uppercase"><strong>Bokeh</strong></h3>
-          <p>https://github.com/udacity/bokeh</p>
-        </div>
       </div>
     </div>
 
-    <!-- Modal for Bitcontrol -->
-    <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <!-- Modal for description to Bitcontrol -->
+    <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="modalLabel1" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
-            <h4 class="modal-title" id="myModalLabel">Bitcontrol GmbH</h4>
+            <h4 class="modal-title" id="modalLabel1">Bitcontrol GmbH</h4>
           </div>
           <div class="modal-body">
-            <!-- TODO: add logo of Bitcontrol; 07-Oct-2015/ais -->
-            <img class="img-responsive" src="images/555.jpeg">
+            <!-- TODO: optionally add logo of Bitcontrol; 07-Oct-2015/ais -->
+<!--             <img class="img-responsive" src="images/logoBitcontrolTiny.png" alt="Bitcontrol logo">
+ -->
             <p>
-              Bitcontrol GmbH is an engineering company in the field of embedded systems, robotics and the Internet of Things.
+              <strong>Bitcontrol GmbH</strong> is an engineering company in the field of embedded systems, robotics and the Internet of Things.
             </p>
             <p>
               It's located in the vicinity of Zürich, Switzerland.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal for description to Blog@Bitcontrol -->
+    <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="modalLabel2" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="modalLabel2">Blog@Bitcontrol</h4>
+          </div>
+          <div class="modal-body">
+            <!-- TODO: optionally add logo of Bitcontrol; 07-Oct-2015/ais -->
+<!--             <img class="img-responsive" src="images/logoBitcontrolTiny.png" alt="Bitcontrol logo">
+ -->
+            <p>
+              This is a <strong>technical blog</strong> about embedded systems and the Internet of Things.
+            </p>
+            <p>
+              Some posts are on <strong>management overview</strong> level, others are <strong>rather geeky</strong>.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal for description to Bitcontrol@GitHub -->
+    <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="modalLabel3" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="modalLabel3">Bitcontrol@GitHub</h4>
+          </div>
+          <div class="modal-body">
+            <!-- TODO: optionally add logo of Bitcontrol; 07-Oct-2015/ais -->
+<!--             <img class="img-responsive" src="images/logoBitcontrolTiny.png" alt="Bitcontrol logo">
+ -->
+            <p>
+              <strong>Bitcontrol has published</strong> some of its drivers, applications
+              and projects on GitHub.
+            </p>
+            <p>
+              The demo code and can be downloaded and <strong>used for free</strong>.
             </p>
           </div>
           <div class="modal-footer">
