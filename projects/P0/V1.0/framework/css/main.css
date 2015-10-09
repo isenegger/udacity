@@ -1,0 +1,84 @@
+/* Uncomment during design phase */
+/** {
+    border: 1px solid red !important;
+}
+*/
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+* {
+   font-family: "Lato", cursive;
+}
+
+/*As an example for conditional displaying; 29-Sep-2015/ais*/
+/*@media only screen and (max-width: 500px) {
+    p {
+        display: none;
+    }
+}
+*/
+body {
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    color: rgba(29, 27, 86, 0.65);
+    font-weight: lighter;
+}
+h2 {
+    color: #8C8A8A;
+}
+h3 {
+    color: #BCBBBB;
+}
+.grid {
+    margin: 0 auto;
+    max-width: 1080px;
+    width: 100%;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    display: -webkit-flex; /* For Safari */
+    margin-bottom: 10px; /* Example */
+    width: 100%;
+}
+.col-1 {
+    width: 8.33%;
+}
+.col-2 {
+    width: 16.66%;
+}
+.col-3 {
+    width: 25%;
+}
+.col-4 {
+    width: 33.33%;
+}
+.col-5 {
+    width: 41.66%;
+}
+.col-6 {
+    width: 50%;
+}
+.col-7 {
+    width: 58.33%;
+}
+.col-8 {
+    width: 66.33%;
+}
+.col-9 {
+    width: 75%;
+}
+.col-10 {
+    width: 83.33%;
+}
+.col-11 {
+    width: 91.66%;
+}
+.col-12 {
+    width: 100%;
+}
