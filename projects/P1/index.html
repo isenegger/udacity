@@ -8,53 +8,62 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:300,100" rel="stylesheet">
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
+    <!-- Note: the order of loading the script matters! -->
     <script src="js/jquery-1.11.3.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <!--<script src="js/myScripts.js"></script>--> <!-- Currently no JS code. -->
   </head>
   <body>
-    <div class="container">
+    <div class="container"><!-- Bootstrap: outmost class must be container -->
+      <!-- Title row -->
       <div class="row">
         <div class="col-md-6">
-          <img class="title-logo" src="images/portraitAndreas.jpg" height="120" alt="Portrait of Andreas">
+          <img src="images/portraitAndreas.jpg" alt="Portrait of Andreas" class="title-logo" title="Andreas Isenegger">
         </div>
         <div class="col-md-6 text-right text-uppercase">
           <h1 class="text-thin title-super">Andreas Isenegger</h1>
-          <h4>Front-end Developer</h4>
+          <h4>Embedded Systems Engineer</h4>
         </div>
       </div>
+      <!-- Horizontal line -->
       <div class="row">
         <div class="col-md-12">
           <hr>
         </div>
       </div>
+      <!-- Big fat main center image -->
       <div class="row">
         <div class="col-md-12">
-          <img src="images/centerImage.png" alt="Main image" class="img-responsive">
+          <img src="images/centerImage.png" alt="Main image" class="img-responsive" title="Melchsee with the white Titlis in the far left">
         </div>
       </div>
+      <!-- Title for project items in next row -->
       <div class="row">
         <div class="col-md-12">
           <h2 class="text-muted">Featured Work</h2>
         </div>
       </div>
+      <!-- Project items -->
       <div class="row text-center">
+        <!-- Item 1 -->
         <div class="col-md-4">
-          <!-- TODO: add logo of Bitcontrol; 07-Oct-2015/ais -->
-          <img src="images/logoBitcontrol.png" alt="Bitcontrol logo" class="img-responsive" data-toggle="modal" data-target="#project1">
+          <img src="images/logoBitcontrol.png" alt="Bitcontrol logo" class="img-responsive" data-toggle="modal" data-target="#project1" title="Click me for more information!">
           <h3 class="text-uppercase caption-bold">Bitcontrol</h3>
           <p>
             <a href="http://bitcontrol.ch" title="Bitcontrol GmbH, Switzerland" target="_blank">My company's home page</a>
           </p>
         </div>
+        <!-- Item 2 -->
         <div class="col-md-4">
-          <img src="images/logoBlog.png" alt="Blog logo" class="img-responsive" data-toggle="modal" data-target="#project2">
+          <img src="images/logoBlog.png" alt="Blog logo" class="img-responsive" data-toggle="modal" data-target="#project2" title="Click me for more information!">
           <h3 class="text-uppercase caption-bold">Blog@Bitcontrol</h3>
           <p>
             <a href="http://bitcontrol.ch/blog" title="Bitcontrol's technical blog" target="_blank">My blog at Bitcontrol</a>
           </p>
         </div>
+        <!-- Item 3 -->
         <div class="col-md-4">
-          <img src="images/logoGitHub.png" alt="GitHub logo" class="img-responsive"  data-toggle="modal" data-target="#project3">
+          <img src="images/logoGitHub.png" alt="GitHub logo" class="img-responsive"  data-toggle="modal" data-target="#project3" title="Click me for more information!">
           <h3 class="text-uppercase caption-bold">Bitcontrol@GitHub</h3>
           <p>
             <a href="https://github.com/bitcontrol" title="Bitcontrol at GitHub" target="_blank">Bitcontrol's public repository</a>
